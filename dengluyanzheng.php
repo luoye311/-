@@ -19,9 +19,9 @@ session_start();
 $username = $_POST['user'];
 $password = $_POST['password'];
 $host = "localhost";
-$userName = "luoye1";
-$dbpassword = "cjK8DxhSPkWBwCrG";
-$dbname = "luntanzhanghao";
+$userName = "l";
+$dbpassword = "c";
+$dbname = "lu";
 if ($connID = mysqli_connect($host, $userName, $dbpassword, $dbname)) { //连接数据库
     echo ("<br>");
 } else {
